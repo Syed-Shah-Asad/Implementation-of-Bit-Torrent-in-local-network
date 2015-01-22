@@ -1,1 +1,4 @@
 # Implementation-of-Bit-Torrent-in-local-network
+
+A complete simulation for Bit-Torrent was made having a file splitter that splits a video files into different chunks that and distribute it to different servers. There was a super-server who have complete track of IP addresses of all the server where different chunks of video files are present. Now when the client needs for a video file, it sends a request to super server.
+ Now super-server will send request to each server where the different chunks of files are present. Each chunks is received and by the super-server where it is combined as a single file and then forwarded to the client.
